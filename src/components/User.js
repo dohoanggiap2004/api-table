@@ -31,10 +31,10 @@ const UserTable = ({ users }) => {
           <tr>
             <th
               className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer"
-              onClick={() => requestSort('name')}
+              onClick={() => requestSort('last')}
             >
               Full Name
-              {sortConfig.key === 'name' && (
+              {sortConfig.key === 'last' && (
                 <span>{sortConfig.direction === 'ascending' ? ' 🔼' : ' 🔽'}</span>
               )}
             </th>

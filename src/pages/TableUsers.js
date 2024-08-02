@@ -16,6 +16,7 @@ const TableUsers = () => {
       const users = data.results.map((user) => ({
         id: user.login.uuid,
         name: `${user.name.title} ${user.name.first} ${user.name.last}`,
+        last: user.name.last,
         username: user.login.username,
         thumbnail: user.picture.thumbnail,
       }));
