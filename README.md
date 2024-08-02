@@ -12,12 +12,13 @@ Sorting on Username and Full Name on the frontend itself.
     - Nodejs
     - npm
 
-### Installation steps
+### Installation steps(use git bash)
 
 #### Step 1: Clone the repository
         git clone https://github.com/dohoanggiap2004/api-table
 
 #### Step 2: Install dependencies
+        - Move into the folder have been cloned
         npm install
 
 #### Step 3: Usage
