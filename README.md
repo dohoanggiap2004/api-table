@@ -14,9 +14,7 @@ Sorting on Username and Full Name on the frontend itself.
 
 ### Installation steps
 
-#### Step 1
-        - Clone the repository
-         ```bash
+#### Step 1: Clone the repository
         git clone https://github.com/dohoanggiap2004/api-table
 
 #### Step 2: Install dependencies
